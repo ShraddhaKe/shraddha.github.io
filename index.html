@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+
+    <!-- cdn icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--Custom css file-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <!--header section start here-->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="logo.png"  alt=" "></a>
+            <h1 class="logoName">The Memes Patrika</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about us">about us</a>
+            <a href="#gallery">memes</a>
+            <a href="#progress">progress</a>
+            <a href="#contact us">contact us</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+    </header>
+    <!--header section end here-->
+
+    
+    <!--home swction start here-->
+    <section class="home"id="home" >
+        
+        <div class="homeContent">
+            <h2>Welcome to<br> The Memes पत्रिका </h2>
+            <p>where reality gets roasted and humor never takes a holiday!<br>
+               Ham yahan memes banate nahi… meme culture jeete hain!
+            </p>
+            <div class="home-btn">
+                <a href="#about us"><button>About Us</button></a>
+                <a href="#contact us"><button>Contact Us</button></a>
+            </div>
+        </div>
+    </section>
+    <!--home section end here-->
+
+    <!--about us section start here-->
+ <section class="about"id="about us" >
+     <div class="aboutContent">
+        <h1>ABOUT US</h1>
+        <p>
+            Shuruat hui ek simple idea se:<br>
+         “Kya har roz ki boring life ko thoda relatable aur thoda zyada hilarious banaya ja sakta hai?”<br>
+         Jawab tha: Haan! Aur isi se janm hua The Memes Patrika – ek desi meme page jahan har post aapke dil se nikli hui lagti hai (aur kabhi-kabhi dimaag ke bahar bhi 😂).<br></p>
+        <p><strong>Yahan milega:</strong></p>
+    <ul>
+      <li>Desi Relatable Memes jo har Indian ko hit karte hain</li>
+      <li>Savage Replies, Bollywood Twists, aur Current Affairs ke Masaledar Takes</li>
+      <li>Kabhi-kabhi thoda dark humor, kyunki sab kuch PG-13 nahi hota!</li>
+    </ul>
+<p>
+Hamari audience ek meme se hasi bhi hai… aur dusre meme mein sochne bhi lagti hai.<br>
+Hamara motto simple hai — “Scroll karo, haso… aur follow karo!”<br>
+        </p>
+        <div class="about-btn">
+    <a href="https://www.instagram.com/thememespatrika" target="_blank">
+        <button>
+            <i class="fab fa-instagram"></i> Follow Us
+        </button>
+    </a>  
+</div>
+
+    </div>
+</section>
+   <!--about us section end here-->
+
+<!-- Modern Image Slider Section Start -->
+<section class="modern-slider" id="gallery">
+  <h1 class="slider-title">OUR LATEST MEMES</h1>
+  <div class="slider-wrapper">
+    <div class="slide fade"><img src="img1.jpg" alt="Slide 1"></div>
+    <div class="slide fade"><img src="img2.jpg" alt="Slide 2"></div>
+    <div class="slide fade"><img src="img3.jpg" alt="Slide 3"></div>
+    <div class="slide fade"><img src="img4.jpg" alt="Slide 4"></div>
+    <div class="slide fade"><img src="img5.jpg" alt="Slide 1"></div>
+    <div class="slide fade"><img src="img6.jpg" alt="Slide 2"></div>
+    
+    <!-- Arrows -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</section>
+<!-- Modern Image Slider Section End -->
+
+
+
+
+<!-- Counter Section Start -->
+<section class="counter-section" id="progress">
+  <div class="counter-wrapper">
+    <h1 class="progress-title">OUR PROGRESS</h1>
+
+    <div class="counter-box">
+      <div class="count" data-target="180000000">0</div>
+      <p>Monthly Reach</p>
+    </div>
+
+    <div class="counter-box">
+      <div class="count" data-target="124968207">0</div>
+      <p>Views</p>
+    </div>
+
+    <div class="counter-box">
+      <div class="count" data-target="1000000">0</div> 
+      <p>Likes</p>
+    </div>
+
+    <div class="counter-box">
+      <div class="count" data-target="1">0</div>
+      <p>Channels</p>
+    </div>
+  </div>
+</section>
+<!-- Counter Section End -->
+
+ <!------------------------contact us--------------->
+          <footer class="contact us" id="contact us">
+            <div class="contact">
+              <h1 class="contact-heading">COLLAB WITH US</h1>
+                        <p>We want to hear from you, write us:</p>
+                    <form id="formdetails" method="get">
+                        <input type="text" name="name" id="name" placeholder="Please Enter Your Name" required>
+                        <input type="text" name="email" id="email" placeholder="Please Enter Your E-mail" required>
+                        <input type="text" name="mobile" id="mobile" placeholder="Please Enter Your Mobile No." required>
+                        <textarea row="5" col="10" name="msg" placeholder="Give Your Opinion....."></textarea>
+                        <br>
+                        <div class="submit-btn">
+                          <button type="submit">Submit</button>
+                        </div> 
+                        <!-- Popup Message -->
+<div id="success-popup" class="popup">
+  <p>Thank you for the response!!!</p>
+</div>
+           
+                    </form>
+
+                    <div class="contact-email">
+                        <p>Or reach out directly: <a href="mailto:thememe@patrika.com">thememe@patrika.com</a></p>
+                    </div>
+<div class="social-links">
+  <a href="https://whatsapp.com/channel/0029Vb5bcMxEKyZLHoOraB2J" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://youtube.com/@thememespatrika?feature=shared" target="_blank"><i class="fab fa-youtube"></i></a>
+  <a href="https://m.facebook.com/@TheMemesPatrikaa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/thememespatrika" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+
+                    </div>
+                </div>
+             </div>
+    
+            <div class="copyright">
+                <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+                <p>Design By&copy;codeRuby</p>
+                <p>Copyright&copy; 2025 The Memes Patrika. All rights reserved.</p>
+            </div>
+        </footer>
+
+<!-- custom js file  -->
+    <script src="style.js"></script>
+
+</body>
+</html>
